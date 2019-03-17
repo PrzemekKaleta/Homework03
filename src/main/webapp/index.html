@@ -6,7 +6,43 @@
 </head>
 <body>
 
-    <h1>Start of project HOMEWORK03</h1>
+    <h1>Przelicznik walut</h1>
+
+    <form action="/Servlet01" metod="get">
+        <fieldset>
+            <legend>Zamieniam z...</legend>
+            <label>USD
+                <input type="radio" name="fromCurrency" value="USD">
+            </label><br>
+            <label>EUR
+                <input type="radio" name="fromCurrency" value="EUR">
+            </label>
+            </label><br>
+            <label>PLN
+                <input type="radio" name="fromCurrency" value="PLN">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>...na...</legend>
+            <label>USD
+                <input type="radio" name="toCurrency" value="USD">
+            </label><br>
+            <label>EUR
+                <input type="radio" name="toCurrency" value="EUR">
+            </label>
+            </label><br>
+            <label>PLN
+                <input type="radio" name="toCurrency" value="PLN">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>kwotę...</legend>
+               <input type="number" name="value" placeholder="100">
+        </fieldset>
+        <input type="submit" value="Przelicz">
+    </form>
+
+
     <p href="">Link do ... </p>
     <p href="">link do ... </p>
     <p href="">link do ... </p>
